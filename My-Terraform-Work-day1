@@ -1,3 +1,8 @@
+Terraform:
+===========
+Terraform is an open-source Infrastructure as Code (IaC) tool created by HashiCorp. 
+Its purpose is to let you build, change, and manage cloud and on-premises computing resources safely and efficiently 
+using human-readable configuration files instead of manual user interfaces.
 
 1) Install Terraform:
 =======================
