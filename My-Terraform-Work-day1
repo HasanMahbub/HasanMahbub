@@ -49,4 +49,3 @@ Additional Terraform files:
 Enables terraform to determine the difference between desired and current state.
 It also uses for dependency management and code collaboration.
 
-
