@@ -1,1 +1,42 @@
 
+1) Install Terraform:
+=======================
+For Linux
+CentOS/RHEL
+sudo yum install -y yum-utils
+sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+sudo yum -y install terraform
+
+References:
+https://developer.hashicorp.com/terraform/install#linux
+
+
+2) Terraform File Structure and Organization:
+===============================================
+Terraform common files:
+A) main.tf  
+ > primary infrastructure components 
+
+B) Variables.tf 
+ > Variable definitions used through your infrastructure
+ 
+C) Outputs.tf 
+ > Show output value to your console
+ 
+D) providers.tf 
+ > providers configuration and requirements 
+ 
+E) terraform.tfvars 
+> assigns concrete values to the input variables declared in your Terraform configuration
+
+Additional Terraform files:
+  terraform.tfstate 
+ > the file that terraform uses to store state / to keep track your current state of your infrastructure
+ 
+ terraform.tfstate.backup 
+  > backup the previous state file before terraform writes anything new to the state file
+
+ .terraform.lock.hcl  
+ > used to track and select provider version and consistency
+ 
+ 
