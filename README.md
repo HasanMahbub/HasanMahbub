@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @HasanMahbub
-- 👀 I’m interested in Database Engineering work
-- 🌱 I’m currently learning Python
+- 👀 I’m interested in Database & Cloud Engineering work
+- 🌱 I’m currently learning Terraform , Python
 - - 💞️ I’m looking to collaborate on automation project
 - 📫 How to reach me https://www.linkedin.com/in/md-mahbubul-hasan-mahbub-920795b1/
 
