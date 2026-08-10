@@ -44,4 +44,9 @@ Additional Terraform files:
  .terraform.lock.hcl  
  > used to track and select provider version and consistency
  
- 
+3) Terraform State:
+======================
+Enables terraform to determine the difference between desired and current state.
+It also uses for dependency management and code collaboration.
+
+
